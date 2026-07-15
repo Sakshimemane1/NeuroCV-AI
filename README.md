@@ -171,8 +171,8 @@ This platform is engineered to directly demonstrate the following software engin
 > ✔️ *Integrated LangChain and OpenAI APIs to generate AI-powered resume recommendations, skill-gap analysis, interview questions, and personalized learning roadmaps.*
 ## 🎥 Live Demo
 
-**Live Application:** https://neurocv-ai.ai.studio
+## 🚀 Live Demo
 
-A short walkthrough of the platform is available in:
+🌐 **Live Application:** https://neurocv-ai.ai.studio
 
-`assets/demo/neurocv-ai-demo.mp4`
+🎥 **Demo Video:** https://youtu.be/xxxxxxxx
