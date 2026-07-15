@@ -1,0 +1,6 @@
+{
+  "name": "NeuroCV AI",
+  "description": "Enterprise AI Career Intelligence Platform for resume analysis, interview preparation, and skill gap visualization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

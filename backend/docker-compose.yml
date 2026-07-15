@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: neurocv_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: neurocv_user
+      POSTGRES_PASSWORD: neurocv_password
+      POSTGRES_DB: neurocv_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  api:
+    build: .
+    container_name: neurocv_fastapi
+    restart: always
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://neurocv_user:neurocv_password@db:5432/neurocv_db
+      - JWT_SECRET=neurocv-super-secret-key-fastapi-2026
+      - OPENAI_API_KEY=your_openai_api_key_here
+    depends_on:
+      - db
+
+volumes:
+  postgres_data:
