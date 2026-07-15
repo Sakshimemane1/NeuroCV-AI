@@ -175,4 +175,4 @@ This platform is engineered to directly demonstrate the following software engin
 
 🌐 **Live Application:** https://neurocv-ai.ai.studio
 
-🎥 **Demo Video:** https://youtu.be/xxxxxxxx
+🎥 **Demo Video:** https://youtu.be/0vDXImMe6J4
