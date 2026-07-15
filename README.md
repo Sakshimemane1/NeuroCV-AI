@@ -169,3 +169,10 @@ This platform is engineered to directly demonstrate the following software engin
 > ✔️ *Implemented scalable FastAPI backend services supporting resume parsing, ATS compatibility analysis, authentication, personalized interview preparation, and workflow automation using PostgreSQL.*
 > 
 > ✔️ *Integrated LangChain and OpenAI APIs to generate AI-powered resume recommendations, skill-gap analysis, interview questions, and personalized learning roadmaps.*
+## 🎥 Live Demo
+
+**Live Application:** https://neurocv-ai.ai.studio
+
+A short walkthrough of the platform is available in:
+
+`assets/demo/neurocv-ai-demo.mp4`
